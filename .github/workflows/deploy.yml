@@ -17,7 +17,7 @@ jobs:
           PORT: ${{ secrets.PORT }}
           KEY: ${{ secrets.SSHKEY }}
           source: "."
-          target: "/home/sen/SenWerks/content"
+          target: "/home/sen/SenWerks"
 
       - name: Executing remote command
         uses: appleboy/ssh-action@master
