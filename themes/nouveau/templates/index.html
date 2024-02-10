@@ -3,26 +3,35 @@
 {% block content_title %}
 
         <h2>Internal Links</h2>
-        <ul>
+
         {% for title, link in MENUITEMS %}
-            <li><a href="{{ link }}">{{ title }}</a></li>
+          <li><a href="{{ link }}">{{ title }}</a>. 
         {% endfor %}
+
         {% if DISPLAY_PAGES_ON_MENU %}
-	<p>Pages:</p>
+	<p>Pages:
           {% for p in pages %}
-            <li><a href="{{ SITEURL }}/{{ p.url }}" {% if p==page %} aria-current="page" {% endif %}>{{ p.title }}</a></li>
+            <a href="{{ SITEURL }}/{{ p.url }}" {% if p==page %} aria-current="page" {% endif %}>{{ p.title }}</a>. &nbsp; 
           {% endfor %}
+        </p>
         {% endif %}
+
         {% if DISPLAY_CATEGORIES_ON_MENU %}
-	<p>Categories:</p>
+	<p>Categories: 
 	{% for cat, null in categories %}
-            <li><a href="{{ SITEURL }}/{{ cat.url }}" {% if cat==category %} aria-current="page" {% endif %}>{{ cat}}</a></li>
-          {% endfor %}
-        {% endif %}
-        </ul>
+        <a href="{{ SITEURL }}/{{ cat.url }}" {% if cat==category %} aria-current="page" {% endif %}>{{ cat}}</a>. &nbsp; 
+        {% endfor %}
+        </p>
+
+<p>Tags:
+    {% for tag, articles in tags|sort %}
+     <a href="{{ SITEURL }}/{{ tag.url }}">{{ tag }}</a> ({{ articles|count }}). &nbsp;
+    {% endfor %}
+     
+       {% endif %}
 
         <h2>External Links</h2>
-        <ul>
+          <ul>
                 <li><a href="https://hackerspace.au/@sen">Mastodon</a> - Mostly me sharing photos of tinkering</li>
                 <li><a href="https://ballarathackerspace.org.au/">Ballarat Hackerspace</a> - Home away from home</li>
                 <li><a href="https://github.com/senwerks/">Github</a>  - Code related to my projects</li>
