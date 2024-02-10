@@ -39,9 +39,18 @@
 </head>
 
 <body bgcolor="#C0C0C0">
-	<h1><img src="/theme/images/computer.gif" alt="It's IN the computer?"><a href="{{ SITEURL }}/">{{ SITENAME }}</a></h1>
+  <table border="0">
+    <tr>
+      <td>
+        <img src="/theme/images/appleomputer.gif" alt="It's IN the computer?">
+      </td>
+      <td>
+      <h1><a href="{{ SITEURL }}/">{{ SITENAME }}</a></h1>
 	{% if SITESUBTITLE %}<p>{{ SITESUBTITLE }}</p>{% endif %}
-	<hr>
+      </td>
+    </tr>
+  </table>	
+  <hr>
 
         {% block content %}
         {% endblock %}
