@@ -5,20 +5,24 @@
 
 {% block head %}
   {{ super() }}
-
   {% import 'translations.html' as translations with context %}
   {% if translations.entry_hreflang(article) %}
     {{ translations.entry_hreflang(article) }}
   {% endif %}
-
   {% if article.description %}
     <meta name="description" content="{{article.description}}" />
   {% endif %}
-
   {% for tag in article.tags %}
     <meta name="tags" content="{{tag}}" />
   {% endfor %}
-
+  <style>
+    pre {
+      background-color: #222222;
+      color: #00FF00;
+      font-family: monospace;
+      padding: 1em;
+    }
+  </style>
 {% endblock %}
 
 {% block content %}

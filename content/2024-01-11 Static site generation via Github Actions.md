@@ -59,11 +59,9 @@ Set up your host/username/port/key in your Repo settings, then stick a file call
               KEY: ${{ secrets.SSHKEY }}
               script: "/home/username/buildpelican.sh"
 
-
 If you have a default Pelican install, then the Bash file is as simple as:
 
     :::bash
-
     source "/home/username/virtualenvs/pelican/bin/activate"
     cd "/home/username/path/to/files//"
     pelican content -s pelicanconf.py
