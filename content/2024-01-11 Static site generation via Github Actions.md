@@ -28,7 +28,7 @@ The Github Action to copy posts/images from Github to the server is pretty simpl
 
 Set up your host/username/port/key in your Repo settings, then stick a file called deploy.yml in your Github repository in */.github/workflows* with the following:
 
-    #!yaml
+    :::yaml
     name: Deploy
 
     on: [push]
@@ -62,10 +62,12 @@ Set up your host/username/port/key in your Repo settings, then stick a file call
 
 If you have a default Pelican install, then the Bash file is as simple as:
 
-    #!bash
+    :::bash
 
     source "/home/username/virtualenvs/pelican/bin/activate"
     cd "/home/username/path/to/files//"
     pelican content -s pelicanconf.py
 
+After all that, you write your posts locally on your computer, push them to Github, and the rest happens automatically. I love how simple this makes it to post to my site as it's no different to just writing locally. No mental load of "publishing" to the site, or logging in to do edits. Just write, hit save, push to Github.
 
+Does that mean I'll actually post more now? ... lol.
