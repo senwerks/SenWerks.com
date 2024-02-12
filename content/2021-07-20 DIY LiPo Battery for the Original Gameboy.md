@@ -10,20 +10,20 @@ I was pretty sick of worrying about the AA batteries for my original Gameboy, an
 I started off designing the basic idea in Fusion 360 and then repeatedly printing it while playing with sub-mm variations on my measurements until it fit into the existing battery compartment snugly, held in place by the original springs.
 
 <center>
-<img alt="Gameboy LiPo Battery initial CAD" src="/images/2021-07-20-DMG01-LiPo-00.png" width="80%">
+<img alt="Gameboy LiPo Battery initial CAD" src="/theme/images/2021-07-20-DMG01-LiPo-00.png" width="80%">
 
-<img alt="Gameboy LiPo Battery case iterations" src="/images/2021-07-20-DMG01-LiPo-02.jpg" width="80%">
+<img alt="Gameboy LiPo Battery case iterations" src="/theme/images/2021-07-20-DMG01-LiPo-02.jpg" width="80%">
 </center>
 
-For more details specific details on how the project was made, check [the Github repo" src="https://github.com/senwerks/lipo-battery-for-original-gameboy/) (pasted below), but with a few bits from [Core Electronics" src="https://core-electronics.com.au/) and some soldering, ended up with this:
+For more details specific details on how the project was made, check [the Github repo](https://github.com/senwerks/lipo-battery-for-original-gameboy/) (pasted below), but with a few bits from [Core Electronics](https://core-electronics.com.au/) and some soldering, ended up with this:
 
 <center>
-<img alt="Gameboy LiPo Battery" src="/images/2021-07-20-DMG01-LiPo-06.jpg" width="80%">
+<img alt="Gameboy LiPo Battery" src="/theme/images/2021-07-20-DMG01-LiPo-06.jpg" width="80%">
 
-<img alt="Gameboy LiPo Battery" src="/images/2021-07-20-DMG01-LiPo-08.jpg" width="80%">
+<img alt="Gameboy LiPo Battery" src="/theme/images/2021-07-20-DMG01-LiPo-08.jpg" width="80%">
 </center>
 
-*The below is a copy/paste from [the Github repo" src="https://github.com/senwerks/lipo-battery-for-original-gameboy/):*
+*The below is a copy/paste from [the Github repo](https://github.com/senwerks/lipo-battery-for-original-gameboy/):*
 
 # LiPo Battery Pack for the original Gameboy (DMG-01)
 
@@ -33,8 +33,8 @@ It's a very simple build, and most of the effort was in iterating (and iterating
 
 ## Ingredients
 
-- [Polymer Lithium Ion Battery (LiPo) 3.7V 1100mAh" src="https://core-electronics.com.au/polymer-lithium-ion-battery-1000mah-38458.html)
-- [Adafruit Micro Lipo w/MicroUSB Jack" src="https://core-electronics.com.au/adafruit-micro-lipo-w-microusb-jack-usb-liion-lipoly-charger-v1.html)
+- [Polymer Lithium Ion Battery (LiPo) 3.7V 1100mAh](https://core-electronics.com.au/polymer-lithium-ion-battery-1000mah-38458.html)
+- [Adafruit Micro Lipo w/MicroUSB Jack](https://core-electronics.com.au/adafruit-micro-lipo-w-microusb-jack-usb-liion-lipoly-charger-v1.html)
 - 3D printed chassis/case
 - 1mm brass wire
 - 22AWG wire
@@ -66,4 +66,5 @@ Voila, USB-rechargeable LiPo battery pack without modifying the console.
 
 <img alt="Wiring for the Gameboy LiPo Battery" src="/theme/images/2021-07-20-DMG01-LiPo-07.jpg" width="80%">
 </center>
+
 
