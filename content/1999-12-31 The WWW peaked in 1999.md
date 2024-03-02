@@ -1,6 +1,5 @@
 Title: The WWW Peaked in 1999
 Date: 1999-12-31 23:59
-Modified: 1999-12-31 23:59
 Category: Nostalgia
 Tags: nostalgia
 Authors: Sen

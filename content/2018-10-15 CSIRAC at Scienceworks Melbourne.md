@@ -1,6 +1,5 @@
 Title: CSIRAC at Scienceworks Melbourne
 Date: 2018-10-15 15:12
-Modified: 2018-10-15 15:12
 Category: RetroTech
 Tags: retrotech, hardware
 Authors: Sen

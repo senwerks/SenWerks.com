@@ -1,6 +1,5 @@
 Title: Static Site Generation with Pelican and  Github Actions
 Date: 2024-01-09 10:34
-Modified: 2024-02-11 22:49
 Category: WebDev
 Tags: webdev, software
 Authors: Sen
