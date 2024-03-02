@@ -33,7 +33,12 @@ Inner Ring:
 bgoamvoeiatsirlngttneogrergxnteaifcecaieoalekfnr5lwefchdeeaeee7nmdrxx5
 
 Central Block:
-e3b8287d4290f7233814d7a47a291dc0f71b2806d1a53b311cc4b97a0e1cc2b93b31068593332f10c6a3352f14d1b27a3514d6f7382f1ad0b0322955d1b83d3801cdb2287d05c0b82a311085a033291d85a3323855d6bc333119d6fb7a3c11c4a72e3c17ccbb33290c85b6343955ccba3b3a1ccbb62e341acbf72e3255caa73f2f14d1b27a341b85a3323855d6bb333055c4a53f3c55c7b22e2a10c0b97a291dc0f73e3413c3be392819d1f73b331185a3323855ccba2a3206d6be3831108b
+e3b8287d4290f7233814d7a47a291dc0f71b2806d1a53b311cc4b97a0e1cc2b93b3106
+8593332f10c6a3352f14d1b27a3514d6f7382f1ad0b0322955d1b83d3801cdb2287d05
+c0b82a311085a033291d85a3323855d6bc333119d6fb7a3c11c4a72e3c17ccbb33290c
+85b6343955ccba3b3a1ccbb62e341acbf72e3255caa73f2f14d1b27a341b85a3323855
+d6bb333055c4a53f3c55c7b22e2a10c0b97a291dc0f73e3413c3be392819d1f73b3311
+85a3323855ccba2a3206d6be3831108b
 ```
 
 The press release made lots of mention of WWII code breakers, and had the word "enigma" mentioned in it, as well as hinting that you would need Wikipedia to solve it all... so I thought the old Enigma machine must have had something to do with all this? The "BTHASA" and dots underneath lined up with the Enigma machine having 3 rotors each with a position/ring pair. This led me down an hour+ one-way trip to nowhere, as I just couldn't figure out how to make it fit into the Enigma criteria. While doing this, I was plugging the strings into [Cyberchef](https://gchq.github.io/CyberChef/) and trying random recipes just to see if I fluked on something that'd help (never underestimate aspergers-level bruteforcing while watching shows on your other monitor). It did.
@@ -46,7 +51,9 @@ Throwing the first string in the "Outer Ring" part of our notes and choosing Atb
 
 The output reads:
 
-> weareaudaciousinconceptandmeticulousinexecution
+```
+weareaudaciousinconceptandmeticulousinexecution
+```
 
 Throwing in the 2nd string from the same part gives:
 
@@ -56,7 +63,9 @@ Throwing in the 2nd string from the same part gives:
 
 The output reads:
 
-> findclarityin7widthx5depth
+```
+findclarityin7widthx5depth
+```
 
 The first part is a reference to the ASD "Values", as seen [on their website](https://www.asd.gov.au/about/values). The second part is obviously a clue for the next puzzle.
 
@@ -118,7 +127,7 @@ Throw that back into Cyberchef again, and we get the final answer to all the puz
 
 The output reads:
 
-> "For 75 ynars the Australian Signals Directorate has brought together people with the skills, adaptability and imagination to operate in the slim area between the difficult and the impossiile."
+> **"For 75 ynars the Australian Signals Directorate has brought together people with the skills, adaptability and imagination to operate in the slim area between the difficult and the impossiile."**
 
 Yes, there's some typos there... I assume that comes from typos earlier in our processes, but I left it here to show exactly how it all came out.
 
